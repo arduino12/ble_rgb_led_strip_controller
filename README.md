@@ -33,7 +33,9 @@ Here is an example packet captured while pressing on a green button:
 | `00` | command arg3 (this case blue value) |
 | `00` | don't care (so I use 0 instad) |
 | `ef` | command end |
-	
+
+### Testing
+I use the [bluetooth-le-explorer](https://www.microsoft.com/en-us/p/bluetooth-le-explorer/9n0ztkf1qd98?activetab=pivot:overviewtab) open source microsoft app to send commands by simple copy-paste for now.
 
 ### Controller have 2 states (use set_power command):
 | states | description |
