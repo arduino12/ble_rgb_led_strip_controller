@@ -2,7 +2,10 @@
  Control a cheap BLE RGB LED strip controller!
 
 ## Introduction
-I just got 1.7$ [12V BLE RGB LED strip controller](https://www.aliexpress.com/item/4000208329326.html) from AliExpress Shop4661053 Store!  
+I just got 1.7$ [12V BLE RGB LED strip controller](https://www.aliexpress.com/item/4000208329326.html) from AliExpress [Shop4661053 Store](https://www.aliexpress.com/store/4661053)!  
+
+![item](../master/docs/item_with_case.jpg "item")
+
 The QR code links to an unofficial [StripV5.0.1.apk](http://www.easytrack.net.cn/download/111SHENZHENSHUANGHONGYUAN) download page.  
 I found official [auraLED](https://play.google.com/store/apps/details?id=wl.smartled.auraled) app from google play to work!  
 I read [Uri Shaked- Reverse Engineering a Bluetooth Lightbulb](https://medium.com/@urish/reverse-engineering-a-bluetooth-lightbulb-56580fcb7546) and got inspired!  
@@ -168,6 +171,10 @@ Did not do anything on my controller.
 `7e00810102030000ef` rgb  
 `7e00810302010000ef` bgr  
 `c1 c2 c3`: (1-3) use each value once!  
+
+## Hardware
+![front](../master/docs/front.jpg "front")
+![back](../master/docs/back.jpg "back")
 
 ## Enjoy!
 A.E.TECH
