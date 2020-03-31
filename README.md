@@ -35,7 +35,9 @@ Here is an example packet captured while pressing on a green button:
 | `ef` | command end |
 
 ### Testing
-I use the [bluetooth-le-explorer](https://www.microsoft.com/en-us/p/bluetooth-le-explorer/9n0ztkf1qd98?activetab=pivot:overviewtab) open source microsoft app to send commands by simple copy-paste for now.
+I use the [bluetooth-le-explorer](https://www.microsoft.com/en-us/p/bluetooth-le-explorer/9n0ztkf1qd98?activetab=pivot:overviewtab) open source microsoft app to send commands by simple copy-paste for now.  
+Simply connect to my controller "ELK-BLEDOM" (be:ff:f0:01:04:a8),  
+and write the hex command bytes to it's only writeable attribute: `0000fff0-0000-1000-8000-00805f9b34fb`.
 
 ### Controller have 2 states (use set_power command):
 | states | description |
@@ -177,6 +179,14 @@ Did not do anything on my controller.
 ## Hardware
 ![front](../master/docs/front.jpg "front")
 ![back](../master/docs/back.jpg "back")
+
+### Parts
+`24C02C`: 2K 5V EEPROM.  
+`HT7533`: 100mA 3.3V Low Power LDO.  
+`crystal`: Seems 12MHz.  
+`XORB 18`: Seems like N-Channel Mosfet.  
+`?`: BLE SoC...  
+
 
 ## Enjoy!
 A.E.TECH
